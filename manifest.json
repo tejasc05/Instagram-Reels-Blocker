@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "IG Reels Blocker",
+  "version": "0.1.0",
+  "description": "Hide/disable Instagram Reels to reduce distraction.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "action": { "default_title": "IG Reels Blocker", "default_popup": "src/popup.html" },
+  "background": { "service_worker": "src/background.js" },
+  "content_scripts": [
+    { "matches": ["https://www.instagram.com/*"], "js": ["src/content.js"], "css": ["src/ui.css"], "run_at": "document_idle" }
+  ],
+  
+  "icons": {
+  "512": "assets/instagram-reel.png"
+}
+,
+  "options_page": "src/options.html"
+}

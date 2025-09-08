@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>IG Reels Blocker</title>
+  <link rel="stylesheet" href="ui.css"/>
+</head>
+<body>
+  <main class="popup">
+    <h1>IG Reels Blocker</h1>
+
+    <label class="row">
+      <input type="checkbox" id="enabled"/>
+      <span>Enable blocking</span>
+    </label>
+
+    <label class="row">
+      <span>Mode</span>
+      <select id="mode">
+        <option value="hide">Hide (CSS)</option>
+        <option value="remove">Remove (DOM)</option>
+      </select>
+    </label>
+
+    <p class="hint">Changes apply instantly on Instagram tabs.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

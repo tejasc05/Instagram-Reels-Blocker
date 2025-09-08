@@ -1,0 +1,4 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+.popup { width: 280px; padding: 12px; }
+.row { display: flex; align-items: center; justify-content: space-between; margin: 8px 0; }
+.hint { color: #666; font-size: 12px; }
