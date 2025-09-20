@@ -64,6 +64,3 @@ Keyboard shortcuts for quick toggling.
 
 Developed by Tejas Chaudhari
 
-LinkedIn
-
-GitHub
